@@ -19,7 +19,6 @@
   align-items: center;
   min-height: 650px;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .banner_details {
@@ -72,6 +71,10 @@
 }
 
 /* header end */
+
+main {
+  padding: 100px 0;
+}
 
 .world_cup_info {
   display: flex;
@@ -165,4 +168,85 @@
 
 .time {
   margin-right: 20px;
+}
+
+.view_all_btn {
+  text-align: center;
+  display: none;
+}
+
+.view_all_btn a {
+  padding: 16px 25px;
+  background: #dd0000;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+footer {
+  background-color: #161616;
+  text-align: center;
+  padding: 100px 0;
+}
+
+footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer_devider {
+  width: 70%;
+  margin: auto;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.096);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.footer_nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #b9b9b9;
+  transition: 0.2s;
+}
+
+.footer_nav li a:hover {
+  color: #fff;
+}
+
+.social_icons li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #b9b9b9;
+  transition: 0.2s;
+}
+
+.social_icons li a:hover {
+  color: #fff;
 }
