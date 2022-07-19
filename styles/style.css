@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1321px;
+  margin: auto;
+}
+
+/* header start */
+
+.banner {
+  background-color: #161616;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  min-height: 650px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.banner_details {
+  padding: 100px;
+  width: 50%;
+}
+
+.banner_details h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.banner_details p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 20px 0 30px 0;
+}
+
+.banner_details a {
+  padding: 16px 25px;
+  background: #dd0000;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.banner_details a:hover {
+  background: #b10000;
+}
+
+.banner_img {
+  width: 50%;
+  text-align: right;
+  padding: 50px 50px 0 0;
+}
+
+.banner_img img {
+  width: 100%;
+  display: block;
+}
+
+/* header end */
+
+.world_cup_info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.world_cup_info aside {
+  width: 312px;
+  background: #161616;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.world_cup_info aside a {
+  background: #ffffff;
+  border-radius: 10px;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+}
+
+.article_section {
+  width: calc(100%);
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.blog {
+  width: 312px;
+}
