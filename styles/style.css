@@ -119,6 +119,7 @@ main {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
 }
 
 .world_cup_info aside {
@@ -154,6 +155,7 @@ main {
 
 .article_section {
   width: calc(75%);
+  margin-left: 15px;
 }
 
 .blogs {
