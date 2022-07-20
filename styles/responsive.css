@@ -91,16 +91,8 @@
 
   .banner_details a {
     padding: 11px 22px;
-    background: #dd0000;
-    border-radius: 5px;
     display: inline;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    transition: 0.2s;
+    
   }
 
   .banner_img {
