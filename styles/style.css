@@ -149,7 +149,6 @@ main {
 
 .world_cup_info aside a:hover {
   background: #dd0000;
-
   color: #fff;
 }
 
@@ -220,6 +219,17 @@ main {
   padding: 40px;
 }
 
+.group_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 40px;
+  letter-spacing: 2px;
+  
+}
+
 .team_flag {
   display: flex;
   justify-content: space-evenly;
@@ -250,6 +260,21 @@ main {
   line-height: 20px;
   text-align: center;
   color: #4d4d4d;
+}
+
+.group_name {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.group_teams {
+  font-family: "Koulen", cursive;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  text-align: center;
 }
 
 .view_all_btn {
