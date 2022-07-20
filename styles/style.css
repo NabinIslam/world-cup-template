@@ -227,7 +227,6 @@ main {
   height: 100%;
   padding: 40px;
   letter-spacing: 2px;
-  
 }
 
 .team_flag {
@@ -267,6 +266,12 @@ main {
   font-size: 50px;
   font-weight: 700;
   text-decoration: underline;
+  cursor: default;
+  transition: 0.1s;
+}
+
+.group_name:hover {
+  transform: scale(1.1);
 }
 
 .group_teams {
@@ -275,6 +280,14 @@ main {
   font-weight: bolder;
   text-align: center;
   text-align: center;
+  cursor: default;
+  transition: 0.3s;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.group_teams:hover {
+  color: #dd0000;
 }
 
 .view_all_btn {
