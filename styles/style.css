@@ -209,6 +209,47 @@ main {
   margin-right: 20px;
 }
 
+.fixture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 40px;
+}
+
+.team_flag {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team_vs {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161616;
+}
+
+.team_name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #161616;
+  margin: 15px 0;
+}
+
+.match_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
 .view_all_btn {
   text-align: center;
   display: none;
