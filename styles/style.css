@@ -23,6 +23,7 @@ html {
   align-items: stretch;
   min-height: 650px;
   margin-top: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .banner_details {
@@ -127,6 +128,7 @@ main {
   background: #161616;
   border-radius: 10px;
   padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .world_cup_info aside a {
@@ -169,6 +171,7 @@ main {
   width: 100%;
   border: 1px solid rgb(240, 240, 240);
   border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .blog .thumbnail img {
