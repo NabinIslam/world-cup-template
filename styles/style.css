@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1321px;
   margin: auto;
@@ -16,13 +20,17 @@
   background-color: #161616;
   border-radius: 30px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   min-height: 650px;
   margin-top: 50px;
 }
 
 .banner_details {
-  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 100px 0 100px 100px;
   width: 50%;
 }
 
@@ -62,18 +70,49 @@
 .banner_img {
   width: 50%;
   text-align: right;
-  padding: 50px 50px 0 0;
+  padding: 50px 50px 0 20px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .banner_img img {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
 /* header end */
 
 main {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+
+.nav_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+
+.nav_tab a {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: block;
+  width: 230px;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.nav_tab a:hover {
+  background: #dd0000;
+
+  color: #fff;
 }
 
 .world_cup_info {
@@ -189,6 +228,8 @@ main {
   display: inline-block;
 }
 
+/* footer start */
+
 footer {
   background-color: #161616;
   text-align: center;
@@ -250,3 +291,5 @@ footer ul li {
 .social_icons li a:hover {
   color: #fff;
 }
+
+/* footer end */
